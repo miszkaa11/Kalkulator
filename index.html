@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Kalkulator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="kalkulator">
+		<input id="wyswietlacz">
+		<button class="btn btn-numer" onclick="wartosc(7)">7</button>
+		<button class="btn btn-numer" onclick="wartosc(8)">8</button>
+		<button class="btn btn-numer" onclick="wartosc(9)">9</button>
+		<button class="btn btn-sposob" onclick="wartosc('/')">/</button>
+		<button class="btn btn-numer" onclick="wartosc(4)">4</button>
+		<button class="btn btn-numer" onclick="wartosc(5)">5</button>
+		<button class="btn btn-numer" onclick="wartosc(6)">6</button>
+		<button class="btn btn-sposob" onclick="wartosc('*')">*</button>
+		<button class="btn btn-numer" onclick="wartosc(1)">1</button>
+		<button class="btn btn-numer" onclick="wartosc(2)">2</button>
+		<button class="btn btn-numer" onclick="wartosc(3)">3</button>
+		<button class="btn btn-sposob" onclick="wartosc('-')">-</button>
+		<button class="btn btn-numer" onclick="wartosc(0)">0</button>
+		<button class="btn btn-sposob" onclick="wartosc('.')">.</button>
+		<button class="btn btn-sposob" onclick="oblicz()">=</button>
+		<button class="btn btn-sposob" onclick="wartosc('+')">+</button>
+		<button class="btn btn-clear" onclick="wyczysc()">Clear</button>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
